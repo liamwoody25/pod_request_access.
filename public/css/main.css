@@ -1,0 +1,87 @@
+
+/**** global color ****/
+
+:root {
+  --main-color:#54E6AF;
+}
+
+/**** base components ****/
+
+.submit-btn {
+  margin-top: 8px;
+  width: 100%;
+  border-radius: 28px;
+  background-color: var(--main-color);
+  padding: 8px 32px 8px 32px;
+}
+
+:placeholder-shown {
+  padding:0 28px 0 28px ;
+}
+
+input[type="email"] {
+  padding: 4px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 50px;
+  border: none;
+  width: 100%;
+}
+
+/*** base typeography ***/
+
+* {
+  font-family: 'Chivo', sans-serif;
+}
+
+h1 {
+  margin-bottom: 0;
+  color: var(--main-color);
+  font-size: 32px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-transform: uppercase;
+}
+
+p {
+  color: #C2CBE5;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+}
+
+span {
+  color: #fff;
+}
+
+/**** base body ****/
+
+.wrapper {
+  margin: 36px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/public/assets/mobile/image-host.jpg);
+  background-color: #121725;
+  background-blend-mode: color-dodge;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  margin-top: 146px;
+  margin-bottom: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+/**** base main ****/
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
