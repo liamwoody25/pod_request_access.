@@ -8,6 +8,10 @@
 /**** base components ****/
 
 .submit-btn {
+  font-size: 14px;
+  color: #121725;
+  font-weight: 700;
+  line-height: 28px;
   margin-top: 8px;
   width: 100%;
   border-radius: 28px;
@@ -16,16 +20,19 @@
 }
 
 :placeholder-shown {
-  padding:0 28px 0 28px ;
+color: #fff;
 }
 
 input[type="email"] {
-  padding: 4px;
-  color: #fff;
+  background-color: #2C344B;
+  font-weight: 700;
+  height: 44px;
+  padding:0 28px;
   font-size: 14px;
   border-radius: 50px;
   border: none;
-  width: 100%;
+  width: 80%;
+  line-height: 28px;
 }
 
 /*** base typeography ***/
